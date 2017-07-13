@@ -1,8 +1,6 @@
 function Contact()
 {
+	this.firstName = "";
+	this.lastName = "";
 };
 
-Contact.addContact = function(contact) {
-  this.currentlyAddingContact = contact;
-  this.isAdded = true;
-};
